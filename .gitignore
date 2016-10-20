@@ -62,3 +62,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 /Operators/ByteShortInt/ByteShortInt/build/
+/Operators/ByteShortInt/ByteShortInt/nbproject/private/
