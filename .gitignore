@@ -63,3 +63,5 @@ $RECYCLE.BIN/
 *.lnk
 /Operators/ByteShortInt/ByteShortInt/build/
 /Operators/ByteShortInt/ByteShortInt/nbproject/private/
+/Inheritance/Inheritance/src/Inheritance2/build/
+/Inheritance/Inheritance/src/Inheritance2/nbproject/private/
