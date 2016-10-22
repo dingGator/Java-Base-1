@@ -17,18 +17,18 @@ public class Main {
         Car porsche = new Car();
         Car holden = new Car();
        // porsche = null;
-       // System.out.println("Model is "+ porsche.getModel());
-       //porsche.model = "carrera";
-     //   System.out.println("Model is "+ porsche.getModel());
-    System.out.println("Model is ***** valid");
-      
+        // System.out.println("Model is "+ porsche.getModel());
+        //porsche.model = "carrera";
+        //   System.out.println("Model is "+ porsche.getModel());
+        System.out.println("Model is ***** valid");
+
         porsche.setModel("Carrera");
-        System.out.println("Model is "+ porsche.getModel());
-   
-        System.out.println("Model is ***** not valid");     
-         porsche.setModel("911");
-        System.out.println("Model is "+ porsche.getModel());
-        
+        System.out.println("Model is " + porsche.getModel());
+
+        System.out.println("Model is ***** not valid");
+        porsche.setModel("911");
+        System.out.println("Model is " + porsche.getModel());
+
     }
-    
+
 }
