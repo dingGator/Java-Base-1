@@ -42,28 +42,28 @@ public class Fish extends Animal {
     }
 
 }
- /*   public Fish(int gills, int eyes, int fins, 
-            String name, int size, int weight) {
-        super(name, 1, 1, size, weight);
-        this.gills = gills;
-        this.eyes = eyes;
-        this.fins = fins;
-    }
-    private void rest(){
+/*   public Fish(int gills, int eyes, int fins, 
+ String name, int size, int weight) {
+ super(name, 1, 1, size, weight);
+ this.gills = gills;
+ this.eyes = eyes;
+ this.fins = fins;
+ }
+ private void rest(){
         
-    }
-    private void moveMuscles(){
+ }
+ private void moveMuscles(){
         
-    }
-    private void moveBackFin(){
+ }
+ private void moveBackFin(){
         
-    }
+ }
     
 
-   private void swim(int speed){
-       moveMuscles();
-       moveBackFin();
-       super.move(speed);
-   }
-}
-*/
+ private void swim(int speed){
+ moveMuscles();
+ moveBackFin();
+ super.move(speed);
+ }
+ }
+ */
