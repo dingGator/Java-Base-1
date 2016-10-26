@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Resolution {
+
     private int width;
     private int height;
 
@@ -16,6 +17,7 @@ public class Resolution {
         this.width = width;
         this.height = height;
     }
+
     public int getWidth() {
         return width;
     }
@@ -24,5 +26,4 @@ public class Resolution {
         return height;
     }
 
-    
 }

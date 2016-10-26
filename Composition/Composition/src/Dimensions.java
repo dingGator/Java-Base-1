@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Dimensions {
+
     private int width;
     private int height;
     private int depth;
@@ -31,5 +32,4 @@ public class Dimensions {
         return depth;
     }
 
-   
-            }
+}
