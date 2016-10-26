@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Bedroom {
+
     private String name;
     private Wall wall1;
     private Wall wall2;
@@ -18,10 +19,10 @@ public class Bedroom {
     private Bed bed;
     private Lamp lamp;
 
-    public Bedroom(String name, 
-            Wall wall1, Wall wall2, 
-            Wall wall3, Wall wall4, 
-            Ceiling ceilings, Bed bed, 
+    public Bedroom(String name,
+            Wall wall1, Wall wall2,
+            Wall wall3, Wall wall4,
+            Ceiling ceilings, Bed bed,
             Lamp lamp) {
         this.name = name;
         this.wall1 = wall1;
@@ -32,11 +33,12 @@ public class Bedroom {
         this.bed = bed;
         this.lamp = lamp;
     }
-    
-    public Lamp getLamp(){
+
+    public Lamp getLamp() {
         return this.lamp;
     }
-    public void makeBed(){
+
+    public void makeBed() {
         System.out.println("Bedroom -> Making bed");
         bed.make();
     }

@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class LivingRoom {
+
     private int sofas;
     private int tvs;
     private int computers;
@@ -16,8 +17,8 @@ public class LivingRoom {
     private int phones;
     private int books;
 
-    public LivingRoom(int sofas, 
-            int tvs, int computers, 
+    public LivingRoom(int sofas,
+            int tvs, int computers,
             int lights, int phones,
             int books) {
         this.sofas = sofas;
@@ -51,6 +52,5 @@ public class LivingRoom {
     public int getBooks() {
         return books;
     }
-    
-           
+
 }

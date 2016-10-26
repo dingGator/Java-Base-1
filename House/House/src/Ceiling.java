@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Ceiling {
+
     private int height;
     private int paintedColor;
 
@@ -24,5 +25,5 @@ public class Ceiling {
     public int getPaintedColor() {
         return paintedColor;
     }
-    
+
 }
