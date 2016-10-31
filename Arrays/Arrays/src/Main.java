@@ -48,7 +48,7 @@ public class Main {
         /**
          * *** error length is not defined for (int i =0; i <30; i++){ //
          * System.out.println("Element "+i + // ", value is "+ myIntArray4[i]);
-        }
+         * }
          */
         printArray(myIntArray4);
 
