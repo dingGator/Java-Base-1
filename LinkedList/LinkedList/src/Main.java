@@ -38,6 +38,11 @@ public class Main {
             System.out.println(i + ": " + intList.get(i));
 
         }
+             System.out.println("***Demo********* ");
+            Demo placesToVisit = new Demo();
+            System.out.println("printList************ ");
+            System.out.println(placesToVisit);
+
     }
 
 }

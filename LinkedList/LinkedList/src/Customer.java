@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Customer {
+
     private String name;
     private double balance;
 
@@ -32,5 +33,5 @@ public class Customer {
     public double getBalance() {
         return balance;
     }
-    
+
 }
