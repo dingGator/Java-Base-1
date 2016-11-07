@@ -8,33 +8,34 @@
  *
  * @author Ki
  */
-public class DeskPhone implements ITelephone{
+public class DeskPhone implements ITelephone {
+
     private int myNumber;
     private boolean isRinging;
 
     public DeskPhone(int myNumber) {
         this.myNumber = myNumber;
-        
+
     }
 
     @Override
     public void powerOn() {
-    //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        System.out.println("No action taken, " +
-                 "desk, desk phone does not have a power button ");
+        //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("No action taken, "
+                + "desk, desk phone does not have a power button ");
     }
 
     @Override
     public void dial(int phoneNumber) {
-    //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-       System.out.println("Now ringing " + phoneNumber+" on the deskphone");
+        //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Now ringing " + phoneNumber + " on the deskphone");
 
     }
 
     @Override
     public void answer() {
-      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        if (isRinging){
+        //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (isRinging) {
             System.out.println("Answering the desk phone");
             isRinging = false;
         }
@@ -42,10 +43,10 @@ public class DeskPhone implements ITelephone{
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        if (phoneNumber == myNumber){
+        if (phoneNumber == myNumber) {
             isRinging = true;
             System.out.println("Ring ring");
-        }else{
+        } else {
             isRinging = false;
         }
         return isRinging;

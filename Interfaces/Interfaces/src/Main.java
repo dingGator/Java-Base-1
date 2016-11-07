@@ -25,5 +25,5 @@ public class Main {
         timsPhone.answer();
         // TODO code application logic here
     }
-    
+
 }

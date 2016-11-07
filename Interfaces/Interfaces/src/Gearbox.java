@@ -9,9 +9,11 @@
  * @author Ki
  */
 public class Gearbox {
+
     private boolean clutchIsIn;
-    public void operateClutch(boolean inOrOut){
+
+    public void operateClutch(boolean inOrOut) {
         this.clutchIsIn = inOrOut;
     }
-    
+
 }
