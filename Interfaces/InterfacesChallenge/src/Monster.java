@@ -7,24 +7,22 @@ import java.util.List;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Ki
  */
-public class Monster implements ISaveable{
+public class Monster implements ISaveable {
+
     private String name;
     private int hitPoints;
     private int strength;
 
-
-    public Monster (String name, int hitPoints, int strength) {
+    public Monster(String name, int hitPoints, int strength) {
         this.name = name;
         this.hitPoints = hitPoints;
         this.strength = strength;
-    
-        
-    } 
+
+    }
 
     public String getName() {
         return name;
@@ -40,37 +38,34 @@ public class Monster implements ISaveable{
 
     @Override
     public List<String> write() {
-       // throw new UnsupportedOperationException("Not supported yet.");
+        // throw new UnsupportedOperationException("Not supported yet.");
         //To change body of generated methods, choose Tools | Templates.
-        ArrayList<String>values = new ArrayList<String>();
+        ArrayList<String> values = new ArrayList<String>();
         values.add(0, this.name);
-        values.add(1,""+ this.hitPoints);
-        values.add(2,""+ this.strength);
+        values.add(1, "" + this.hitPoints);
+        values.add(2, "" + this.strength);
         return values;
- 
-   
+
     }
 
     @Override
     public void read(List<String> savedValues) {
         //throw new UnsupportedOperationException("Not supported yet.");
         //To change body of generated methods, choose Tools | Templates.
-           if(savedValues != null && savedValues.size()>0){
-            this.name= savedValues.get(0);
-            this.hitPoints= Integer.parseInt(savedValues.get(1));
-            this.strength= Integer.parseInt(savedValues.get(2));  
-           }
+        if (savedValues != null && savedValues.size() > 0) {
+            this.name = savedValues.get(0);
+            this.hitPoints = Integer.parseInt(savedValues.get(1));
+            this.strength = Integer.parseInt(savedValues.get(2));
+        }
     }
 
     @Override
     public String toString() {
-        return "Monster{" + 
-                "name=" + name + '\'' +
-                ", hitPoints=" + hitPoints + 
-                ", strength=" + strength + 
-                '}';
+        return "Monster{"
+                + "name=" + name + '\''
+                + ", hitPoints=" + hitPoints
+                + ", strength=" + strength
+                + '}';
     }
 
-    
-    
 }

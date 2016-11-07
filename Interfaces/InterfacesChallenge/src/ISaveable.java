@@ -7,13 +7,14 @@ import java.util.List;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Ki
  */
 public interface ISaveable {
-    List<String>write();
+
+    List<String> write();
+
     void read(List<String> savedValues);
-    
+
 }
