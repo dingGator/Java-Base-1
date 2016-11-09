@@ -9,6 +9,7 @@
  * @author Ki
  */
 public class Button {
+
     private String title;
     private OnClickListener onClickLister;
 
@@ -24,10 +25,12 @@ public class Button {
         this.onClickLister = onClickListener;
     }
 
-    public void onClick(){
+    public void onClick() {
         this.onClickLister.onClick(this.title);
     }
-public interface OnClickListener {
-    public void onClick(String title);
-}
+
+    public interface OnClickListener {
+
+        public void onClick(String title);
+    }
 }
