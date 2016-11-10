@@ -8,27 +8,27 @@
  *
  * @author Ki
  */
-public abstract class Bird extends Animal implements CanFly{
-    public Bird(String name){
+public abstract class Bird extends Animal implements CanFly {
+
+    public Bird(String name) {
         super(name);
     }
-     @Override
-    public void eat(){
-        System.out.println(getName()+" is pecking");
-    }
+
     @Override
-    public void breathe(){
-          System.out.println("Breathe in, breathe out ");
+    public void eat() {
+        System.out.println(getName() + " is pecking");
+    }
+
+    @Override
+    public void breathe() {
+        System.out.println("Breathe in, breathe out ");
 
     }
 
     @Override
     public void fly() {
-     //   throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        System.out.println(getName()+ " is flapping its wings.");
+        //   throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println(getName() + " is flapping its wings.");
     }
-  
-        
-    
-    
+
 }

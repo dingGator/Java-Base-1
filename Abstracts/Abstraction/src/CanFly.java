@@ -9,5 +9,6 @@
  * @author Ki
  */
 public interface CanFly {
+
     void fly();
 }

@@ -8,19 +8,21 @@
  *
  * @author Ki
  */
-public class Dog extends Animal{
+public class Dog extends Animal {
 
     public Dog(String name) {
         super(name);
     }
+
     @Override
-    public void eat(){
-        System.out.println(getName()+" is eating");
+    public void eat() {
+        System.out.println(getName() + " is eating");
     }
+
     @Override
-    public void breathe(){
-          System.out.println("Breathe in, breathe out ");
+    public void breathe() {
+        System.out.println("Breathe in, breathe out ");
 
     }
-    
+
 }
