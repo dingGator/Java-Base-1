@@ -72,13 +72,13 @@ public class Main {
 
         System.out.println(adelaideCrows.compareTo(melbourne));
         System.out.println(adelaideCrows.compareTo(hawthorn));
-        
+
         System.out.println("*******hawthorn.compareTo(adelaideCrows)1****");
-        
+
         System.out.println(hawthorn.compareTo(adelaideCrows));
-         
+
         System.out.println("*******hawthorn.compareTo(adelaideCrows)2****");
-        
+
         System.out.println(melbourne.compareTo(fremantle));
 
     }
