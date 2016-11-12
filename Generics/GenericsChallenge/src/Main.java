@@ -33,7 +33,7 @@ public class Main {
         Team<FootballPlayer> melbourne = new Team<>("Melbourne");
         Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
         Team<FootballPlayer> fremantle = new Team<>("Fremantle");
-  
+
         hawthorn.matchResult(fremantle, 1, 0);
         hawthorn.matchResult(adelaideCrows, 3, 8);
 
@@ -45,10 +45,9 @@ public class Main {
         footballLeague.add(hawthorn);
 
         footballLeague.showLeagueTable();
-        
+
         Team<BaseballPlayer> baseballTeam = new Team<>("Chicago Cubs");
 
-     
         BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
         Team rawTeam = new Team("Raw Team");

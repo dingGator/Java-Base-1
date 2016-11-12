@@ -36,7 +36,7 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
             return false;
         } else {
             teamMembers.add(teamPlayer);
-          //System.out.println(((Player)teamPlayer).getPlayerName() +" picked for team " + this.teamName);
+            //System.out.println(((Player)teamPlayer).getPlayerName() +" picked for team " + this.teamName);
 
             System.out.println(teamPlayer.getPlayerName() + " picked for team " + this.teamName);
             return true;

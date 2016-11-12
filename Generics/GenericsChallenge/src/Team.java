@@ -6,12 +6,10 @@ import java.util.ArrayList;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Ki
  */
-
 public class Team<T extends Player> implements Comparable<Team<T>> {
 
     private String teamName;
@@ -38,7 +36,7 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
             return false;
         } else {
             teamMembers.add(teamPlayer);
-          //System.out.println(((Player)teamPlayer).getPlayerName() +" picked for team " + this.teamName);
+            //System.out.println(((Player)teamPlayer).getPlayerName() +" picked for team " + this.teamName);
 
             System.out.println(teamPlayer.getPlayerName() + " picked for team " + this.teamName);
             return true;
@@ -85,5 +83,3 @@ public class Team<T extends Player> implements Comparable<Team<T>> {
     }
 
 }
-
-
