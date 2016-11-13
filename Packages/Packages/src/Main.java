@@ -9,7 +9,6 @@ import javax.xml.soap.Node;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Ki
@@ -21,23 +20,31 @@ public class Main {
      */
     public static void main(String[] args) {
         /*/ TODO code application logic here
-        Node node = null;*/
+         Node node = null;*/
         org.w3c.dom.Node anotherNode = null;
-        
-       //new Main().bleh();
-        
-        
+        Node node = null;
+        /*    node.bleh();
+         anotherNode.bleh();
+         */
+        //new Main().bleh();
+        bleh();
+
     }
-    public void bleh(){
-        for (int i =0;i<10;i++){
-            int f = 4;
+
+    public static void bleh() {
+        for (int i = 0; i < 10; i++) {
+            int f = i;
             String name = "Bob - ";
-            if (i>7) f++;
-            else{ f +=2;
-             System.out.println(name + f);}
+            if (i > 7) {
+                f++;
+                 System.out.println(name + f);
+            } else {
+                f += 2;
+                System.out.println(name + f);
+            }
         }
        // System.out.println(name + f);
-    
-                }
-    
+
+    }
+
 }
