@@ -37,7 +37,7 @@ public class Main {
              System.out.println(name + f);}
         }
        // System.out.println(name + f);
-    */
+    
                 }
     
 }
