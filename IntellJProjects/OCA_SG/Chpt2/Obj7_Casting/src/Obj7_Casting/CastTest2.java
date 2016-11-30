@@ -7,11 +7,11 @@ public class CastTest2 {
     public static void main(String[] args) {
         System.out.println("***main");
         Animal animal1 = new Animal();
-        Dog d1 = (Dog) animal1;  //casting the ref. var.
+       Animal a5 = new Dog();
+        Dog d1 = (Dog) a5;  //casting the ref. var.
         //compile but fails later
-        System.out.println("****  Animal[] a = {new Animal(), new Dog(), new Animal()}; ");
 
-        Animal animal2 = new Animal();
+        Animal animal2 = new Dog();
         Dog d2 = (Dog) animal2;
         //String s = (String) animal2;
         // Error animal can NOT be a string
@@ -22,6 +22,7 @@ public class CastTest2 {
         d3.doDogStuff();
 
 
+        System.out.println("****  Animal[] a = {new Animal(), new Dog(), new Animal()}; ");
 
 
         Animal[] a = {new Animal(), new Dog(), new Animal()};
@@ -48,7 +49,5 @@ public class CastTest2 {
 
         }
     }
-    public void doDogStuff(){
 
-    }
 }

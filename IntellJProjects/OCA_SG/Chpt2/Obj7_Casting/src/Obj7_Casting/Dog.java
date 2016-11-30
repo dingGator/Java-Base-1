@@ -6,9 +6,13 @@ package Obj7_Casting;
 public class Dog extends Animal {
 
     void makeNoice() {
-        System.out.println("Dog bark");
+        System.out.println("Dog extends Aninal makeNoise: Dog bark");
      }
      void playDead(){
-         System.out.println("Dog roll over");
+         System.out.println("Dog extends Aninal playDead: Dog roll over");
      }
+    void doDogStuff(){
+        System.out.println("" +
+                "***Dog extends Aninal doDogStuff:  Do dog Stuff  ");
+    }
 }

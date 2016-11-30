@@ -47,29 +47,29 @@
       <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CastTest2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CastTest2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/CastTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="-90">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DogTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DogTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/DogTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -96,9 +96,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Obj7_Casting/Dog.java" />
         <option value="$PROJECT_DIR$/src/Obj7_Casting/Animal.java" />
         <option value="$PROJECT_DIR$/src/Obj7_Casting/DogTest.java" />
+        <option value="$PROJECT_DIR$/src/Obj7_Casting/Dog.java" />
         <option value="$PROJECT_DIR$/src/Obj7_Casting/CastTest2.java" />
       </list>
     </option>
@@ -177,7 +177,7 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="RunManager" selected="Application.DogTest">
+  <component name="RunManager" selected="Application.CastTest2">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Obj7_Casting.Main" />
@@ -464,8 +464,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.DogTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CastTest2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CastTest2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DogTest" />
       </list>
     </recent_temporary>
   </component>
@@ -532,6 +532,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -543,39 +551,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/DogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/CastTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Obj7_Casting/DogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="-90">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
