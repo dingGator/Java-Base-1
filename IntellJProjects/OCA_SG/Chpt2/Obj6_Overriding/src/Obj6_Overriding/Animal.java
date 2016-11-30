@@ -19,9 +19,13 @@ public class Animal {
         System.out.println("Animal Print yourself ");
     }
 
-    public void eatThrow() throws Exception {
+    public void eatThrow() {
+        System.out.println(" Animal eatThrow Exception ");
+    }
+    public void eatThrowException() throws Exception {
         System.out.println(" Animal eatThrow throws Exception ");
     }
+
 
 
 }
