@@ -5,14 +5,7 @@ package Obj2_ReturnRules;
  */
 public interface Chewable {
 
-    public class Gum implements Chewable{}
 
-    public class TestChewable{
-        // Method with an interface return type
-        public Chewable getChewable(){
-            System.out.println("Chewable getChewable return new Gum");
-            return new Gum();
-        }
-    }
+
 
 }

@@ -59,7 +59,7 @@ public class Button {
         return new Horse();
     }
 
-    public Object getObject(){
+    public Object getObject1(){
         System.out.println("6.  Button  Object getObject()");
         int[] nums = {1,2,3};
         return nums;
