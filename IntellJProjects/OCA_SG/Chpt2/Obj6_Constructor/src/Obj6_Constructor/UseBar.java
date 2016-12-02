@@ -6,6 +6,6 @@ package Obj6_Constructor;
 public class UseBar {
     public static void main(String[] args) {
         Bar bar = new Bar();
-        bar.takeInt();
+        bar.takeInt(5);
     }
 }
