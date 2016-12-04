@@ -5,7 +5,9 @@ package Obj6_OverloadedConstructors;
  */
 public class InitError {
     static int[] x = new int[4];
-    static {x[4] =5;}
+    static {x[3] =5;}
 
-    public static void main(String[] args) {}
+    public static void main(String[] args) {
+        System.out.println("InitError " + x[3]);
+    }
 }
