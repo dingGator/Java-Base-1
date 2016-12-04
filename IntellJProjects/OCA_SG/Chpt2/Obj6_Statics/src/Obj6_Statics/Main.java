@@ -31,9 +31,16 @@ public class Main {
 
         System.out.println("***Main Bsr baz.woo()   ");
         baz.woo();
+
         System.out.println("***Main Bsr baz.doMore()   ");
 
         baz.doMore();
+        System.out.println("***Main Dog dog.doStuff()   ");
+
+        Dog dog = new Dog();
+        dog.doStuff();
+
+        }
 
     }
-}
+

@@ -4,15 +4,17 @@ package Obj6_Statics;
  * Created by Ki on 12/3/2016.
  */
 public class Baz {
-    static int count;
+    static int count =57;
     static void woo(){
         System.out.println("Baz woo()");
     }
     static void doMore(){
-        System.out.println("Baz doMore  woo()");
+        // static method can access a static method or variable
+        System.out.println("Baz doMore()  woo()");
         woo();
         int x = count;
-        System.out.println("Baz doMore  int x = count" + x);
+        System.out.println("Baz doMore() count  "+count);
+        System.out.println("Baz doMore()  x  " + x);
 
     }
 }
