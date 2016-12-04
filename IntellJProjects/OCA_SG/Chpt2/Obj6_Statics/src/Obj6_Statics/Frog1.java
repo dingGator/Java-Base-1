@@ -23,7 +23,7 @@ public class Frog1 {
 
     public int getFrogSizeNon() {
 
-        System.out.println("getFrogSize frogSize:  " + frogSizeNon);
+        System.out.println("getFrogSize frogSizeNon:  " + frogSizeNon);
         return frogSizeNon;
     }
 
@@ -46,11 +46,13 @@ public class Frog1 {
         System.out.println("*** Main fr.nonConFrog1(15)  " );
         fr.nonConFrog1(15);
 
-        // System.out.println("frog1.getFrogSize()  " + Frog1.getFrogSize());
+        //Error static context can not reference a non-static method: getFrogSize()
+        //System.out.println("frog1.getFrogSize()  " + Frog1.getFrogSize());
 
         System.out.println("*** Main fr.getFrogSize()  " + fr.getFrogSize());
         System.out.println("*** Main fr.getFrogSizeNon() " + fr.getFrogSizeNon());
         System.out.println("*** Main fr.frogSizeStatic() " + Frog1.frogSizeStatic);
+        System.out.println("*** Main frogSizeStatic() " + frogSizeStatic);
 
 
 
