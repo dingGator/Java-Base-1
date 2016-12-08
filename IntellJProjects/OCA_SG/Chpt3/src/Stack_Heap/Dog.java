@@ -11,12 +11,16 @@ public class Dog {
         Dog d;
         d= new Dog();
         d.go(d);
+        System.out.println("d.go  ");
+                 d.go(d);
+
     }
     void go(Dog dog){
         c = new Collar();
         dog.setName("Aiko");
+        System.out.println("dog  name:  "+ name);
    }
    void setName(String dogName){
-       
+       name = dogName;
    }
 }
