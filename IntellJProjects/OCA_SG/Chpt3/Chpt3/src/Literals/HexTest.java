@@ -9,6 +9,9 @@ public class HexTest {
         int y = 0x7fffffff;
         int z= 0xDeadCafe;
         int z2 = 0XDEADCAFE;
-        System.out.println(" x = " +x + "\n y = " + y + "\n z = " +z+"\n z2 = " +z2 );
+        long  jo= 110599L;
+        long so = 0xFFFFl;  // lowercase 'l'
+        System.out.println(" x = " +x + "\n y = " + y + "\n z = " +z+"\n z2 = " +z2
+                +"\n jo = " +jo+"\n so = " +so);
     }
 }
