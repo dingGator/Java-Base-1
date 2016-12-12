@@ -21,11 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FloatingPoint.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FloatingPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Literals/FloatingPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+            <state relative-caret-position="241">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VariablesList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Literals/VariablesList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -53,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/Literals/HexTest.java" />
         <option value="$PROJECT_DIR$/src/Stack_Heap/FloatingPoint.java" />
         <option value="$PROJECT_DIR$/src/Literals/IntegerLiterals.java" />
+        <option value="$PROJECT_DIR$/src/Literals/VariablesList.java" />
         <option value="$PROJECT_DIR$/src/Literals/FloatingPoint.java" />
       </list>
     </option>
@@ -152,27 +163,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.FloatingPoint">
-    <configuration default="false" name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Literals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Stack_Heap.Dog" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chpt3" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.VariablesList">
     <configuration default="false" name="Octal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -241,6 +232,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Literals.FloatingPoint" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chpt3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VariablesList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Literals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Literals.VariablesList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -476,19 +487,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Dog" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Octal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.HexTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IntegerLiterals" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FloatingPoint" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Octal" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HexTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntegerLiterals" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FloatingPoint" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VariablesList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FloatingPoint" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Octal" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IntegerLiterals" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HexTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Dog" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VariablesList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FloatingPoint" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Octal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IntegerLiterals" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -705,8 +716,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Literals/FloatingPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+        <state relative-caret-position="241">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Literals/VariablesList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
