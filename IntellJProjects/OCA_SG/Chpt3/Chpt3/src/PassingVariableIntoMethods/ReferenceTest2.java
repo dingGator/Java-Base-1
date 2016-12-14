@@ -9,9 +9,9 @@ import java.awt.Dimension;
 public class ReferenceTest2 {
     public static void main(String[] args) {
         Dimension d = new Dimension(5,10);
-        ReferenceTest rt = new ReferenceTest();
+        ReferenceTest2 rt2 = new ReferenceTest2();
         System.out.println("Before modify() d.height = "+ d.height);
-        rt.modify(d);
+        rt2.modify(d);
         System.out.println("Before modify() d.height = "+ d.height);
     }
     void modify(Dimension dim){
