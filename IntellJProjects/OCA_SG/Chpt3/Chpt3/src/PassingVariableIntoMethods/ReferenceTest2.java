@@ -17,7 +17,7 @@ public class ReferenceTest2 {
     }
     void modify(Dimension dim){
         dim.height = dim.height +1;
-        System.out.println("dim = " + dim.height);
+        System.out.println("dim  = " + dim.height);
     }
 
 }

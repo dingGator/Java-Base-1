@@ -22,7 +22,7 @@ public class Foo {
         System.out.println("doStuff ");
 
         setName("Boo");
-        
+
     }
 
     void setName(String boo) {
