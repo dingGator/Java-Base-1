@@ -12,7 +12,8 @@ public class ReferenceTest2 {
         ReferenceTest2 rt2 = new ReferenceTest2();
         System.out.println("Before modify() d.height = "+ d.height);
         rt2.modify(d);
-        System.out.println("Before modify() d.height = "+ d.height);
+        System.out.println("After modify() d.height = "+ d.height);
+
     }
     void modify(Dimension dim){
         dim.height = dim.height +1;
