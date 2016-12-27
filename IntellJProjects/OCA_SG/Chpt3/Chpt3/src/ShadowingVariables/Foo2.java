@@ -6,6 +6,6 @@ package ShadowingVariables;
 public class Foo2 {
     Bar myBar = new Bar();
     void changeIt(Bar myBar){
-        
+
     }
 }
