@@ -19,6 +19,8 @@ public class GarbageTruck {
         System.out.println("  s2  = "+s2);
 
         //The StringBuffer object "hello" is not eligible for collection
+        System.out.println("  s1  = s2  ");
+
         s1=s2; // redirect s1 to refer to "goodbye" object
         // now the Stringbuffer " hello" is eligiblie for collection
         System.out.println("  s1  = "+s1);
