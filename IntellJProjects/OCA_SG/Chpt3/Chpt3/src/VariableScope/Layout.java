@@ -11,7 +11,18 @@ public class Layout {
     void doStuff(){
         int y =0;
         for (int z=0; z<4; z++){
+            System.out.println("****for loop begin***");
+            System.out.println(" z = "+ z);
             y += z + x;
+            System.out.println(" y = "+ y);
+            System.out.println("****for loop end***");
+
+
         }
+    }
+
+    public static void main(String[] args) {
+        Layout layout = new Layout();
+        layout.doStuff();
     }
 }
