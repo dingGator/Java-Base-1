@@ -1,4 +1,4 @@
-package Chpt3A.Question1.Question9;
+package Chpt3A.Question9;
 
 /**
  * Created by Ki on 12/30/2016.

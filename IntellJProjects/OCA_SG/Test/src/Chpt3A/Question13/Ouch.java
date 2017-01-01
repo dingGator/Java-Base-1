@@ -1,4 +1,4 @@
-package Chpt3A.Question1.Question13;
+package Chpt3A.Question13;
 
 /**
  * Created by Ki on 12/30/2016.
@@ -14,6 +14,6 @@ public class Ouch {
             if (i>7) f++;
             else f+=2;
         }
-       // System.out.println(name +f);
+        //System.out.println(name +f);
     }
 }
