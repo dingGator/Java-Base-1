@@ -19,9 +19,9 @@ class Yup {
         return y;
     }
 
-    public void setY(int y) {
-        this.y = y;
-    }
+   // public void setY(int y) {
+     //   this.y = y;
+    //}
 }
 
 /**
@@ -32,7 +32,7 @@ class Work {
     public static void main(String[] args) {
         Yup y = new Yup();
         y.setX(8);
-        y.setY(10);
+      //  y.setY(10);
         System.out.println(y.getX() + y.getY());
     }
 }

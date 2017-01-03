@@ -6,20 +6,22 @@ package Chpt3A.Question29.xcom;
 public class A {
     //insert code here
   //yes
+    /*
    void go(){
         System.out.println("a.go");
     }
-  /*
+  /* yes
 
     public void go(){
         System.out.println("a.go");
     }
-    /*
+    /*yes
     private void go(){
         System.out.println("a.go");
     }
+    yes*/
     protected void go(){
         System.out.println("a.go");
     }
-    */
+
 }
