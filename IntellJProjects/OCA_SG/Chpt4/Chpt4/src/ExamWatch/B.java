@@ -18,6 +18,7 @@ public class B extends A {
         }
         if (b instanceof Foo) {
             System.out.println("b instanceof Foo");
-        
+
+        }
     }
 }
