@@ -11,6 +11,6 @@ public class InstanceTest {
         System.out.println(b+ " " + c);
 
         /******************/
-        
+
     }
 }
