@@ -10,7 +10,7 @@ public class Dark {
         new Dark().go1();
     }
     void go1(){
-        int x ;
+        int x =0;
         go2(++x);
     }
     void go2(int y){
