@@ -54,8 +54,18 @@
       <file leaf-file-name="StringBuilder2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StringBuilderClass/StringBuilder2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="483">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringBuilder_ExamWatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExamWatch/StringBuilder_ExamWatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -82,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/StringClassMethods/StringClassMethods.java" />
         <option value="$PROJECT_DIR$/src/StringBuilderClass/StringBuilder.java" />
         <option value="$PROJECT_DIR$/src/StringBuilderClass/StringBuilder1s.java" />
+        <option value="$PROJECT_DIR$/src/ExamWatch/StringBuilder_ExamWatch.java" />
         <option value="$PROJECT_DIR$/src/StringBuilderClass/StringBuilder2.java" />
       </list>
     </option>
@@ -204,6 +215,24 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExamWatch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chpt5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chpt5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -211,23 +240,6 @@
     </panes>
   </component>
   <component name="RunManager" selected="Application.StringBuilder2">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Chpt5.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Chpt5" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="StringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -296,6 +308,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="StringBuilderClass.StringBuilder2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Chpt5" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringBuilder_ExamWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ExamWatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ExamWatch.StringBuilder_ExamWatch" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -531,18 +563,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringClassMethods" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringBuilder" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StringBuilder2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringClassMethods" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringBuilder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StringBuilder2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringBuilder_ExamWatch" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.StringBuilder2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StringBuilder" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringClassMethods" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StringBuilder_ExamWatch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StringBuilder" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringClassMethods" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringClass" />
       </list>
     </recent_temporary>
   </component>
@@ -641,10 +674,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamWatch/StringBuilder_ExamWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StringBuilderClass/StringBuilder2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="483">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding />
         </state>
       </provider>
