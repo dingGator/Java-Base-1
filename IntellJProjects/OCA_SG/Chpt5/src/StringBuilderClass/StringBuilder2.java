@@ -42,6 +42,11 @@ public class StringBuilder2 {
             StringBuilder sb6 = new StringBuilder("A man a plan a canal Panama");
             sb6.reverse();
             System.out.println(sb6);
+            /****************************************/
+            StringBuilder sb7 = new StringBuilder("test string");
+            System.out.println(sb7.toString());
+            /****************************************/
+
         }
 
 }

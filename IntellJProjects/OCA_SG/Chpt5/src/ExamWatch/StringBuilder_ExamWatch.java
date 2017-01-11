@@ -5,7 +5,10 @@ package ExamWatch;
  */
 public class StringBuilder_ExamWatch {
     public static void main(String[] args) {
-    StringBuilder sb = new StringBuilder("abc");
-    sb.append("def");
+        StringBuilder sb = new StringBuilder("abc");
+        sb.append("def");
         System.out.println(sb);
-}}
+        sb.reverse().insert(4, "---").reverse();
+        System.out.println(sb);
+    }
+}
