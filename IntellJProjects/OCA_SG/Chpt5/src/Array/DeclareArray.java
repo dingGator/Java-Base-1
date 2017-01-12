@@ -17,6 +17,7 @@ public class DeclareArray {
         /***  not legal****
          * int[] carList = newint[];
          */
-        int [][] myArru = new int[3][];
+        int [][] myArray = new int[3][];
+
     }
 }
