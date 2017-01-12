@@ -18,6 +18,11 @@ public class DeclareArray {
          * int[] carList = newint[];
          */
         int [][] myArray = new int[3][];
+        int [][]scores = new int[3][];
+
+        scores[0] = new int[4];
+        scores[1] = new int[6];
+        scores[2] = new int[1];
 
     }
 }
