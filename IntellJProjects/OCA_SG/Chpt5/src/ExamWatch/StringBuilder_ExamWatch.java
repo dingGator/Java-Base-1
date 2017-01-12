@@ -10,5 +10,9 @@ public class StringBuilder_ExamWatch {
         System.out.println(sb);
         sb.reverse().insert(4, "---").reverse();
         System.out.println(sb);
+        /*********************/
+        String x = "abc";
+        String y =x.concat("def").toUpperCase().replace('C','x');
+        System.out.println("y = "+y);
     }
 }
