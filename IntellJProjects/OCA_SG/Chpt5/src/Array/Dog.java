@@ -4,11 +4,8 @@ package Array;
  * Created by Ki on 1/11/2017.
  */
 public class Dog {
-    Dog puppy = new Dog();
     static String puppy = "Frodo";
-    Dog puppy1 = new Dog();
     static String puppy1 = "Clover";
-    Dog puppy2 = new Dog();
     static String puppy2 = "Aiko";
 
     public static void main(String[] args) {
@@ -55,7 +52,11 @@ public class Dog {
             System.out.println("dots2[" + x + "]" + dots2[x]);
         }
 
-        
+        System.out.println("Dog.puppy = " + Dog.puppy);
+        System.out.println("Dog.puppy1 = " + Dog.puppy1);
+        System.out.println("Dog.puppy2 = " + Dog.puppy2);
+
+
 
 
     }
