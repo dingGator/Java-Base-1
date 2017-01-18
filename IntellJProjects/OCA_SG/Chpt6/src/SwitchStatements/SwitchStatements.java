@@ -67,10 +67,12 @@ public class SwitchStatements {
             case 80:
                 System.out.println("80");
                 break;
+      /* ILLEgal:   repeat case
             case 80:
                 System.out.println("80");
                 break;
-            case 90:
+       */
+      case 90:
                 System.out.println("90");
                 break;
             default:
