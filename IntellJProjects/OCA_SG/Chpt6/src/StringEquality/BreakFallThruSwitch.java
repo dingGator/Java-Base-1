@@ -33,24 +33,41 @@ public class BreakFallThruSwitch {
         int b = 1;
         switch (b) {
             case 1:
-                System.out.println("b is one");break;
+                System.out.println("b is one");
+                break;
             case 2:
-                System.out.println("b is two");break;
+                System.out.println("b is two");
+                break;
             case 3:
-                System.out.println("b is three");break;
+                System.out.println("b is three");
+                break;
         }
 
         System.out.println("out of switch");
         /*************************/
-        int c = 5;
+        int c = 6;
         switch (c) {
             case 2:
             case 4:
             case 6:
             case 8:
             case 10:
-                System.out.println("x is an even number ");break;
-
+                System.out.println("c is an even number ");
+        }
+            /************************/
+            int d = 6;
+            switch (d) {
+                case 2:
+                case 4:
+                case 6:
+                case 8:
+                case 10: {
+                    System.out.println("d is an even number ");
+                }
+                default:
+                    System.out.println("d is an odd number");
+            }
+                    /*
             switch (c) {
                 case 1:
                 case 2:
@@ -62,11 +79,13 @@ public class BreakFallThruSwitch {
                 case 8:
                 case 9:
                 case 10:
-                    System.out.println("x is an even number ");break;
+                    //    System.out.println("x is an even number ");break;
+                default:
+                    //    System.out.println(" x is an odd number");
 
-
+            }
         }
 
-
+*/
+        }
     }
-}
