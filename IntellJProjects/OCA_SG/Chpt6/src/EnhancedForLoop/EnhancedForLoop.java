@@ -33,12 +33,7 @@ public class EnhancedForLoop {
         for (Dog d : animals) ;     //you might get a Cat
 
     */
-        System.out.println("\n /***************************/");
-       for (int i =0; i<10; i++){
-           System.out.println("Inside loop i = "+ i);
-           continue;
-       }
-       for(int)
+
     }
 
 
