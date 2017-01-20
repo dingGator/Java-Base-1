@@ -37,12 +37,25 @@ public class ForLoop {
             System.out.println("inside endless loop");
         }
 */
-
+//  for loop is like a while loop here
         int i = 0;
         for (; i < 10; ) {
             i++;
             System.out.println(" inside loop i = " + i);
+
         }
+        System.out.println("*************************");
+
+        for (int i1 =0, j1=0; (i1<10)&& (j1<10); i1++, j1++){
+            System.out.println(" in for loop i1 = "+ i1 + " j1 = "+j1);
+        }
+        System.out.println("*************************");
+
+        int b =3;
+        for (int a =1;b!=1; System.out.println("iterate") ){
+            b = b-a;
+        }
+
     }
 
     static boolean doStuff() {
