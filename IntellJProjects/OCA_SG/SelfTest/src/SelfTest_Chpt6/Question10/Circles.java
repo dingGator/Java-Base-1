@@ -11,7 +11,7 @@ public class Circles {
                 if(x >4 && x< 8 ) continue;
                 System.out.println(" x = "+x+" j = "+j);
                 if(j == 1)break;
-                System.out.print(" *****x = "+x+ " j = "+j);
+                System.out.println(" *****x = "+x+ " j = "+j);
                 continue;
             }
             continue;
