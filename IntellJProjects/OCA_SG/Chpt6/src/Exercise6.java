@@ -18,5 +18,22 @@ public class Exercise6 {
                 System.out.println(" not a, b, c");
                 break;
         }
+        System.out.println("******************");
+
+        int age = 10;
+        outer:
+        while (age <= 21) {
+            for (; age <= 16; age++) {
+                System.out.println("another year: age= " + age);
+
+            if (age ==16) {
+                System.out.println("get your driver license: age= " + age);
+            }
+            }
+            System.out.println("your age = "+ age);
+            age++;
+
+
+        }
     }
 }
