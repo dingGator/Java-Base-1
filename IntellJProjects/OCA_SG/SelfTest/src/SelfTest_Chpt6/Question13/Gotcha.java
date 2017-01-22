@@ -6,11 +6,11 @@ package SelfTest_Chpt6.Question13;
 public class Gotcha {
     public static void main(String[] args) {
         //new Gotcha().go();  // stackOverFlow error
-       /*
+
         try { new Gotcha().go();}
 
             catch (Error e){ System.out.println("ouch"); }
-          output :  ouch*/
+        //  output :  ouch*/
        //
        // output error  stackOverflowError
        /* try{ new Gotcha().go();}
