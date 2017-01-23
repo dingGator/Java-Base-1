@@ -11,9 +11,9 @@ public class Scoop {
         try{
             int x = thrower();
         } catch (Exception e){
-            x++;
+      //      x++;
         } finally {
-            System.out.println("x = "+ ++x);
+     //       System.out.println("x = "+ ++x);
         }
     }
 }
