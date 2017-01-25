@@ -8,10 +8,12 @@ public class Question11 {
         String d = "aiko ";
         d += d;
         d += "ahanay ";
-        String a = d.concat("shockanal ");
-        System.out.println("a = "+ a);
-        String b = d.toUpperCase();
-        System.out.println("b = "+b);
+        d.concat("shockanal ");
+       // String a = d.concat("shockanal ");
+       // System.out.println("a = "+ a);
+       d.toUpperCase();
+        // String b = d.toUpperCase();
+       // System.out.println("b = "+b);
         System.out.println("d = " +d);
 
     }
