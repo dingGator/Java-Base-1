@@ -1,0 +1,13 @@
+package Chpt6.Question12;
+
+/**
+ * Created by Ki on 1/24/2017.
+ */
+public class Zeta {
+    public static void main(String[] args) {
+        int x =1;
+        if((4>x)^((++x + 2)>3)) x++;
+        if((4> ++x)^!(++x ==5))x++;
+        System.out.println("x = "+ x);
+    }
+}
