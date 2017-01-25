@@ -7,7 +7,7 @@ public class Zeta {
     public static void main(String[] args) {
         int x = 1;
         if ((4 > x) ^ ((++x + 2) > 3)) x++;
-       // System.out.println("x in step 1 = " + x);
+       System.out.println("x in step 1 = " + x);
         //boolean b = (++x + 2) > 3;
         //System.out.println(" b = " + b+"\n x in step 2 = " + x);
 
