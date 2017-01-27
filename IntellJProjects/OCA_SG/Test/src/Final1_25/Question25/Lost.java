@@ -6,7 +6,7 @@ package Final1_25.Question25;
 public class Lost {
     public static void main(String[] args) {
 
-    
+
     Lost e1 = new Lost();
     Lost e2 = new Lost();
     Lost e3 = new Lost();
