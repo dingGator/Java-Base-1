@@ -10,7 +10,7 @@ class Fork extends Cutlery{
         Fork f1 = new Fork();
         Cutlery c2 =c1;
         Cutlery c3 = f1;
-      Fork f2 =c1;
+     ///Fork f2 =c1;
         Fork f3 = f1;
     }
 }
