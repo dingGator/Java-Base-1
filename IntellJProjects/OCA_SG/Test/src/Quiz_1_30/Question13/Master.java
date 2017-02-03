@@ -7,19 +7,22 @@ import java.io.*;
 class Master {
     String doFileStuff() throws FileNotFoundException{ return "a"; }
 }
-class Slave extends Master{
+class Slave extends Master {
     public static void main(String[] args) {
         String s = null;
         try {
             s = new Slave().doFileStuff();
-        }catch (Exception x){
-            s = "b";}
-        System.out.println(s);
+        } catch (Exception x) {
+            s = "b";
         }
-        //a  String doFileStuff(){return "b";}
-        //b  String doFileStuff()throws IOException {return "b";}
-        //c  String doFileStuff(int x) throws IOException {return "b";}
-        //d  String doFileStuff() throws  FileNotFoundException {return "b";}
-        //e  String doFileStuff() throws NumberFormatException{return "b"; }
-        String doFileStuff() throws IOException {return "b";}
-String doFileStuff() throws Master
+        System.out.println(s);
+    }
+
+    //a yes    String doFileStuff(){return "b";}
+    //b no     String doFileStuff()throws IOException {return "b";}
+    //c yes    String doFileStuff(int x) throws IOException {return "b";}
+    //d yes    String doFileStuff() throws  FileNotFoundException {return "b";}
+    //e yes    String doFileStuff() throws NumberFormatException{return "b"; }
+    //f yes    String doFileStuff() throws NumberFormatException, FileNotFoundException {
+     //     return "b";}
+}
