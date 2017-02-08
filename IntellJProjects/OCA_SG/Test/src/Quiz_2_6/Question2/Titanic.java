@@ -1,4 +1,4 @@
-package Quiz_2_6.Question1.Question2;
+package Quiz_2_6.Question2;
 
 /**
  * Created by Ki on 2/6/2017.
