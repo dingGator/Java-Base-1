@@ -3,10 +3,11 @@ package Quiz_2_6.Question34.xcom;
 /**
  * Created by Ki on 2/9/2017.
  */
-import xcom.*;
+//import xcom.*;
 public class Needy3 {
     public static void main(String[] args) {
-        xcom.Useful u = new xcom.Useful();
+//        xcom.Useful u = new xcom.Useful();
+        Useful u = new Useful();
         System.out.println(u.increment(5));
     }
 }
